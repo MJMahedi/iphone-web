@@ -20,6 +20,7 @@
 .iphone img{
  width: 40%;
  padding-left: 20%;
+ padding-top: 30px;
  
 }
 .iphone h1{
@@ -33,13 +34,18 @@
    font-size: 20px;
    padding: 10px 10px;
    color: rgb(245, 247, 243);
-   background-color: darkslategrey;
+   background-color: rgb(106, 166, 206);
 }
 
-
-
+.main-feature3 img{
+    height: 60px;
+}
+.main-feature2 img{
+    height: 60px;
+    
+}
 .feature img{
-    max-width: 50px;
+    max-width: 60px;
     
     background-color: none;
     
@@ -57,20 +63,20 @@
     
 }
 .main-feature1{
-    background-color: rgb(177, 243, 54);
+    background-color: #b7f348;
     width: 250px;
-    border: 3px solid rgb(233, 226, 165);
-    box-shadow: 10px 10px 50px red;
+    border: 3px solid rgb(233, 212, 165);
+    box-shadow: 10px 10px 50px yellow;
     border-radius: 10px;
 }
 .main-feature2{
-    background-color: rgb(243, 104, 54);
+    background-color: rgb(241, 213, 89);
     width: 250px;
-    box-shadow: 10px 10px 50px rgb(217, 255, 0);
+    box-shadow: 10px 10px 50px rgb(115, 255, 0);
     border-radius: 10px;
 }
 .main-feature3{
-    background-color: rgb(243, 54, 186);
+    background-color: rgb(54, 114, 243);
     width: 250px;
     box-shadow: 10px 10px 50px rgb(0, 140, 255);
     border-radius: 10px;
@@ -84,9 +90,7 @@
         background-position: center;
         width: 100%;
         height: 500px;
-       
-       
-    
+ 
 }
 
 .cinema-1 {
@@ -98,11 +102,96 @@
         padding-top: 10%;
         /* background-color: rgba(193, 240, 82, 0.671);*/  
 }
+.cinema-1 h1{
+    
+        font-size: 40px;
+        
+   
+}
 .cinema-1 img{
     
         width: 80%;
         padding-left: 10%;
         padding-top: 5%;
-        
+     
+}
+.water{
+    display: flex;
+
+        width: 100%;
+        height: 500px;
+
+}
+.water img{
+    padding-right: 20%;
+    
+ 
+}
+.water-resistence{
+    padding-top: 5%;
+        font-size: 20px;
+        width: 100%;
+        height: 5px;
+        padding-left: 10%;
        
+}
+.water-resistence h1{
+   
+        font-size: 40px;
+        font-style: bold; 
+   
+}
+.pro-max{
+    display: flex;
+
+        }
+.lens h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lens h2{
+    padding-top: 5%;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tripple-lens{
+      font-size: 20px;
+        width: 100%;
+        
+        padding-left: 10%;
+    
+}
+.tripple-lens img{
+    padding-left: 40px;
+}
+
+.end{
+    
+    text-align: center;
+    background-color: rgb(56, 54, 54);
+    height: 130px;
+  
+    
+
+}
+.orange{
+    color: yellow;
+    
+
+}
+.white{
+    color: turquoise;
+
+}
+.end p{
+    color: white;
+}
+.last-end h2{
+    text-size-adjust: ;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+
+
+
 }
